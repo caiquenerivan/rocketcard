@@ -1,0 +1,79 @@
+:root {
+  --bg: #000000;
+  --bg-card: #0E1218;
+  --text: #F1F1F1;
+  --img-profile: #8257e5;
+  --buttons: #FFF;
+  --border-button: #1A1A1A;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  
+}
+
+.principal{
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  margin-top: .5em;
+  height: 31em;
+  width: 18.5em;
+  background: red;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.info{
+  height: 30em;
+  width: 16em;
+  border-radius: 3em;
+  display: flex;
+  margin: 0 auto;
+  background-color: var(--bg-card);
+}
+
+.costumizar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#background{
+  background-color: var(--border-button);
+  border:none;
+  color: var(--text-color);
+  padding: 1em 2em;
+  margin: 2em;
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoNome{
+  height: 2em;
+  border-radius: 50%;
+  border: 1px solid var(--buttons);
+  padding: .3em;
+  margin: .5em;
+}
