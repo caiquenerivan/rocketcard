@@ -30,7 +30,7 @@ body{
   flex-direction: column;
 }
 
-.card{
+#card{
   margin-top: .5em;
   height: 31em;
   width: 18.5em;
@@ -45,6 +45,8 @@ body{
   width: 16em;
   border-radius: 3em;
   display: flex;
+  flex-direction:column;
+  justify-content: center;
   margin: 0 auto;
   background-color: var(--bg-card);
 }
@@ -62,11 +64,13 @@ body{
   color: var(--text-color);
   padding: 1em 2em;
   margin: 2em;
+  font-family: 'Prompt', sans-serif;
+  border-radius: 1em;
+  cursor: pointer;
 }
 
 .title{
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -75,5 +79,30 @@ body{
   border-radius: 50%;
   border: 1px solid var(--buttons);
   padding: .3em;
+  margin: .8em;
+}
+
+.imageFundo img{
+  height: 15em;
+  width: 15em;
+  margin: 5em 2em;
+  border: .4em solid var(--img-profile);
+  border-radius:50%;
+  
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;  
+  margin-right: .8em;
+}
+
+.main{
+  height: 70%;
+}
+.bottom img{
+  height: 1.5em;
   margin: .5em;
 }
+
